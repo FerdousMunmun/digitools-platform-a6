@@ -8,6 +8,7 @@ const Cart = ({ products,setProducts }) => {
   const total = products.reduce((sum, item) => sum + item.price, 0);
   const handlePayment = () => {
     setProducts([])
+    toast.success("Proceed to successful")
   };
   const handleDelete = (item) =>{
    const filteredArray = products.filter(c =>c.id !== item.id)
@@ -74,8 +75,8 @@ const Cart = ({ products,setProducts }) => {
           </div>
 
           {/* Button */}
-          <button onClick={handlePayment} className="mt-4 w-full rounded-full bg-[#9514FA] py-3 text-sm font-medium text-white shadow-md">
-            Proceed To Checkout
+          <button onClick={handlePayment} className="mt-4 w-full rounded-full bg-[#9514FA] py-2 text-sm font-medium text-white shadow-md">
+            Proceed  To  Checkout
           </button>
         </div>
       </div>

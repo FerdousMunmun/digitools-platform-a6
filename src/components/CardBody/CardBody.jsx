@@ -7,6 +7,13 @@ const CardBody = ({card,products,setProducts}) => {
     const [buyNow, setbuyNow] = useState(false)
     const handlebuyNow = () =>{
         setbuyNow(true)
+
+        const isfound = products.find(item =>item.id===card.id)
+        if (isfound){
+          toast.error("Item already in cart!")
+          return
+        }
+
         setProducts([...products,card])
         toast.success("Item added to cart")
 
