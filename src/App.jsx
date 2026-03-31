@@ -7,12 +7,16 @@ import Cart from './components/Cart/Cart'
 import Footer from './components/Footer/Footer'
 import Navber from './components/Navber/Navber'
 import StatusBar from './components/StatusBar/StatusBar'
+import StartedPart from './components/StartedPart/StartedPart'
+import PricingSection from './components/PricingSection/PricingSection'
+import TransformSection from './components/TransformSection/TransformSection'
 
 const getCards = async () =>{
   const res = await fetch("/cards.json")
   return res.json()
 }
 const cardPromise = getCards()
+
 function App() {
 const [activeTab,setactiveTab] = useState("Product")
 const [products,setProducts] = useState([])
@@ -37,6 +41,9 @@ const [products,setProducts] = useState([])
    {activeTab ==="Cart" ? <Cart products={products} setProducts={setProducts}/> : null} 
     
     <StatusBar/>
+    <StartedPart/>
+    <PricingSection/>
+    <TransformSection/>
     <Footer/>
     </>
   )
