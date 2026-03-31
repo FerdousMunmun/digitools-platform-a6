@@ -15,6 +15,7 @@ const getCards = async () =>{
 const cardPromise = getCards()
 function App() {
 const [activeTab,setactiveTab] = useState("Product")
+console.log(activeTab)
 
  
 
