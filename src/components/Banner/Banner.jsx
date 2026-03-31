@@ -5,14 +5,14 @@ import { IoPlayOutline } from "react-icons/io5";
 const Banner = () => {
   return (
     <div className='max-w-[1200px] mx-auto bg-base-100 py-[117px] '>
-          <div className="flex gap-2 items-center justify-between">
+          <div className="md:flex gap-2 items-center justify-between">
             <div className="w-[634px] bg-white px-6 pt-6 pb-8">
       <div className="inline-flex items-center gap-2 rounded-full bg-violet-100 px-4 py-2 text-[16px] font-medium text-[#9514FA]">
         <span className="h-2.5 w-2.5 rounded-full bg-violet-500 ring-4 ring-violet-200"></span>
         New: AI-Powered Tools Available
       </div>
 
-      <h1 className="mt-6 max-w-[634px] text-7xl font-bold leading-[1.05] tracking-[-0.04em] text-[#101727]">
+      <h1 className="mt-6 max-w-[634px] md:text-7xl sm:text-3xl  font-bold leading-[1.05] tracking-[-0.04em] text-[#101727]">
         Supercharge Your Digital Workflow
       </h1>
 

@@ -13,7 +13,7 @@ return (
 <section className="px-4 py-20">
 <div className="mx-auto max-w-6xl">
 <div className="text-center">
-<h2 className="text-4xl font-extrabold text-[#111827] md:text-5xl">
+<h2 className="text-[48px] font-extrabold text-[#101727] md:text-5xl">
 Simple, Transparent Pricing
 </h2>
 <p className="mt-3 text-sm text-gray-400">

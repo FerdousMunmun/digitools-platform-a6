@@ -32,7 +32,7 @@ const StartedPart = () => {
     <section className="bg-[#f8f8fa] px-4 py-24">
       <div className="mx-auto max-w-6xl">
         <div className="text-center">
-          <h2 className="text-5xl font-bold tracking-[-0.02em] text-[#111827]">
+          <h2 className="text-[48px] font-extrabold tracking-[-0.02em] text-[#101727]">
             Get Started In 3 Steps
           </h2>
           <p className="mt-3 text-sm text-[#9ca3af]">
