@@ -14,17 +14,17 @@ The platform is designed with a clean UI and smooth user experience to boost pro
 🎯 JavaScript (ES6+)
 
 ✨ Key Features
-1. 🛒 Dynamic Cart System.
-       Add/remove products,
+1. 🛒 Dynamic Cart System
+       ->Add/remove products,
       Cart updates instantly across Navbar and UI
-2. 🎯 Interactive Pricing Section.
-       Highlighted active plan
+2. 🎯 Interactive Pricing Section
+       ->Highlighted active plan
        Fully dynamic using JSON data
-3.  📱 Responsive & Modern UI.
-     Clean design with Tailwind CSS,
+3.  📱 Responsive & Modern UI
+     ->Clean design with Tailwind CSS,
       Mobile-friendly layout
 
-🔥 Bonus Features. 
+🔥 Bonus Features
 💡 Tab-based navigation (Products / Cart),
 🎨 Gradient UI sections & animations,
 ⚡ Fast performance using Vite.
