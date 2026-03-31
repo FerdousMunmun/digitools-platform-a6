@@ -1,16 +1,30 @@
-# React + Vite
+DigiTools - Premium Digital Tools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Description
 
-Currently, two official plugins are available:
+DigiTools is a modern and responsive web application where users can explore premium digital products, add them to a cart, and manage their selections seamlessly.
+The platform is designed with a clean UI and smooth user experience to boost productivity and creativity.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+🛠️ Technologies Used
+⚛️ React.js
+🎨 Tailwind CSS
+⚡ Vite
+📦 JSON (for data handling)
+🎯 JavaScript (ES6+)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✨ Key Features
+1. 🛒 Dynamic Cart System
+       ->Add/remove products,
+      Cart updates instantly across Navbar and UI.
+2. 🎯 Interactive Pricing Section
+       ->Highlighted active plan,
+       Fully dynamic using JSON data.
+3.  📱 Responsive & Modern UI
+     ->Clean design with Tailwind CSS,
+      Mobile-friendly layout.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔥 Bonus Features
+💡 Tab-based navigation (Products / Cart),
+🎨 Gradient UI sections & animations,
+⚡ Fast performance using Vite.
