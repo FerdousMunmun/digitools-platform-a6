@@ -1,0 +1,102 @@
+
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with AI-powered suggestions.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "image": "https://cdn-icons-png.flaticon.com/512/3135/3135768.png"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Launch a stunning personal portfolio in minutes.",
+    "price": 49,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["Modern UI templates", "SEO optimized", "Easy customization"],
+    "image": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
+  },
+  {
+    "id": 3,
+    "name": "Social Media Scheduler",
+    "description": "Plan, schedule, and automate your social posts.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["Auto scheduling", "Multi-platform support", "Analytics dashboard"],
+    "image": "https://cdn-icons-png.flaticon.com/512/747/747310.png"
+  },
+  {
+    "id": 4,
+    "name": "Invoice Generator",
+    "description": "Create and manage invoices effortlessly.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Custom branding", "Tax calculation", "Download as PDF"],
+    "image": "https://cdn-icons-png.flaticon.com/512/2920/2920265.png"
+  },
+  {
+    "id": 5,
+    "name": "AI Content Writer",
+    "description": "Generate blogs, ads, and social content using AI.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["Blog generation", "Ad copy tools", "Multi-language support"],
+    "image": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png"
+  },
+  {
+    "id": 6,
+    "name": "Email Marketing Suite",
+    "description": "Design and send high-converting email campaigns.",
+    "price": 39,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Drag & drop builder", "Automation flows", "Performance analytics"],
+    "image": "https://cdn-icons-png.flaticon.com/512/561/561127.png"
+  },
+  {
+    "id": 7,
+    "name": "Landing Page Builder",
+    "description": "Create high-converting landing pages quickly.",
+    "price": 59,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best",
+    "features": ["Conversion templates", "A/B testing", "Fast hosting"],
+    "image": "https://cdn-icons-png.flaticon.com/512/1828/1828919.png"
+  },
+  {
+    "id": 8,
+    "name": "Design Assets Pack",
+    "description": "Access thousands of icons, fonts, and UI kits.",
+    "price": 79,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["5000+ icons", "Premium fonts", "UI components"],
+    "image": "https://cdn-icons-png.flaticon.com/512/565/565547.png"
+  },
+  {
+    "id": 9,
+    "name": "Video Editing Toolkit",
+    "description": "Edit and enhance videos with professional-grade tools.",
+    "price": 45,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["4K editing support", "Transitions & effects", "Export presets"],
+    "image": "https://cdn-icons-png.flaticon.com/512/3039/3039436.png"
+  }
+]
