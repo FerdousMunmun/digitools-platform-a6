@@ -1,23 +1,6 @@
 import React from 'react'
+import { toast } from 'react-toastify';
 
-// const Cart = ({products}) => {
-//   console.log(products)
-//   return (
-//     <div>
-//       <h1 className='text-2xl font bold'>Your Cart</h1>
-//       {products.map((item) => (
-//   <div key={item.id}>
-//     <img
-//       className="h-20 w-20 object-cover"
-//       src={item.image}
-//       alt={item.name}
-//     />
-//   </div>
- 
-// ))}
-//     </div>
-//   )
-// }
 
 
 
@@ -29,6 +12,7 @@ const Cart = ({ products,setProducts }) => {
   const handleDelete = (item) =>{
    const filteredArray = products.filter(c =>c.id !== item.id)
    setProducts(filteredArray)
+   toast.success("Item remove from cart")
    }
 
   return (
