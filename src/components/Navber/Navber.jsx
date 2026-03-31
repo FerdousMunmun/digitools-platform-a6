@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsCart3 } from "react-icons/bs";
 
-const Navber = () => {
+const Navber = ({cartCount}) => {
   return (
     <div>
         <div className="navbar max-w-[1200px] mx-auto bg-base-100 ">
@@ -21,7 +21,15 @@ const Navber = () => {
     </ul>
   </div>
   <div className="navbar-end ">
-    <h2><a className='flex justify-between gap-3 items-center font-semibold text-[16px] text-[#101727]'><BsCart3 />Login</a></h2>
+    <h2><a className='flex justify-between gap-3 items-center font-semibold text-[16px] text-[#101727]'>
+   <div className="relative inline-block">
+    <BsCart3 className="text-xl" />
+
+    <span className="absolute -top-2 -right-2 bg-[#9514FA] text-white text-xs px-1.5 py-0.5 rounded-full">
+      {cartCount}
+    </span>
+  </div>
+Login</a></h2>
     <button className='font-semibold text-[16px] text-[#FFFFFF] bg-[#9514FA] hover:bg-[#c381f5]  px-[16px] py-[12px] rounded-3xl ml-4'>Get Started</button>
   </div>
 </div>

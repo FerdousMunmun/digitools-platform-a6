@@ -15,22 +15,26 @@ const getCards = async () =>{
 const cardPromise = getCards()
 function App() {
 const [activeTab,setactiveTab] = useState("Product")
-console.log(activeTab)
+const [products,setProducts] = useState([])
+
+
 
  
 
   return (
     <>
-    <Navber/>
+    <Navber cartCount={products.length}/>
     <Banner/>
     {/* name of each tab group should be unique */}
 <div className="tabs tabs-box justify-center bg-transparent">
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 text-black font-sm text-[16px] " aria-label="Products" defaultChecked />
-  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40  text-black  font-sm text-[16px]" aria-label="Cart"  />
+  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40 text-black font-sm text-[16px] " aria-label="Products" 
+    onClick={()=>setactiveTab("Product")} defaultChecked />
+  <input type="radio" name="my_tabs_1" className="tab rounded-full w-40  text-black  font-sm text-[16px]" aria-label={`Cart (${products.length})`}
+  onClick={()=>setactiveTab("Cart")}  />
   
 </div>
-    <Cards cardPromise={cardPromise}/>
-    <Cart/>
+   {activeTab==="Product" ? <Cards cardPromise={cardPromise} products={products} setProducts={setProducts} /> : null} 
+   {activeTab ==="Cart" ? <Cart products={products} setProducts={setProducts}/> : null} 
     
     <StatusBar/>
     <Footer/>

@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
+import Cards from '../Cards/Cards'
  
 
-const CardBody = ({card}) => {
+const CardBody = ({card,products,setProducts}) => {
     const [buyNow, setbuyNow] = useState(false)
     const handlebuyNow = () =>{
         setbuyNow(true)
+        setProducts([...products,card])
 
     }
   return (

@@ -1,7 +1,8 @@
 import React, { use,  } from 'react'
 import CardBody from '../CardBody/CardBody';
 
-const Cards = ({cardPromise}) => {
+
+const Cards = ({cardPromise,products,setProducts}) => {
   const cards = use (cardPromise)
 
  return (
@@ -20,7 +21,7 @@ to boost your productivity and creativity.
 {/* Grid */}
 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 {cards.map((card) => (
-<CardBody key={card.id} card={card}/>
+<CardBody key={card.id} card={card} products={products} setProducts={setProducts}/>
 ))}
 </div>
 </div>
